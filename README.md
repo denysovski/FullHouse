@@ -1,23 +1,8 @@
 # Full House
-Fullhouse Gamble je interaktivní webová stránka plná zábavných miniher, kde můžete sázet své tokeny a soutěžit s ostatními hráči. Tato stránka nabízí pohlcující zážitek díky svému futuristickému designu v odstínech fialové a černé.
+Full House je webová aplikace navržená pro poskytování zábavy a vzrušení prostřednictvím sázení na různé minihry. 🎲 Cílem projektu je vytvořit tématické prostředí pro hráče a oblíbence mírných "hazardních" her. 
 
-## Popis
-Fullhouse Gamble je navržena tak, aby poskytovala uživatelům zábavu a napětí prostřednictvím různých miniher, které umožňují sázet a vyhrávat tokeny. Každý večer se vám přičítá 10 nových tokenů, které můžete využít k sázkám v minihrách.
+Na webové stránce Ti budou přiděleny kredity, které budeš mít možnost sázet / vkládat na různé minihry 🃏. Jednotlivé minihry mají různé bodování a výpočet odměny za dohrání na základě pravděpodobnosti a úrovně obtížnosti uhádnutí správné odpovědi. Pro hraní miniher je nezbytné být přihlášený. 
 
-## Hlavní funkce
-- Minhry
-  - Na stránce naleznete různé minihry, které jsou jednoduché, ale zároveň vzrušující. Každá hra má své specifické pravidla a možnosti sázek.
-- Tokeny
-  - Každý uživatel obdrží každý večer 10 nových tokenů. Tyto tokeny lze použít k sázení v různých minihrách a vyhrávat další tokeny.
-- Žebříček
-  - Soutěžte s ostatními hráči a sledujte své umístění na žebříčku. Nejlepší hráči získají prestižní postavení a mohou se pochlubit svými úspěchy.
-- Design
-  - Kombinace fialové a černé barvy vytváří moderní a poutavou atmosféru, nachází se zde mnoho dynamických efektů a animací
+Připoj se k Full House a objev nový rozměr online sázení z pohodlí domova!
 
-## Licence
-Tento projekt je licencován pod MIT License
-
-## Kontakt
-Máte-li jakékoli dotazy nebo zpětnou vazbu, neváhejte nás kontaktovat na maniaccult@gmail.com
-
-![image](https://github.com/user-attachments/assets/a7577f57-1204-468e-87ad-6567be1a65b9)
+![background](https://github.com/BrazilskeTornado/Full-House/assets/145593737/359cb3bf-83e7-4de9-9d7c-db481e7ba954)

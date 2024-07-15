@@ -1,0 +1,311 @@
+html { 
+  margin-left: calc(100vw - 100%); 
+  overflow-y: scroll;
+}
+
+.zpet {
+    text-align: center;
+    background-color: #930ea4;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.zpet li a {
+    color: white;
+}
+
+body {
+  background: black;
+}
+
+.zpet {
+    list-style: none;
+    border-radius: 15px;
+  }
+  
+  .zpet li {
+    padding: 5px 10px 5px 10px;
+    transition: 0.4s;
+  }
+  
+  .zpet li a {
+    transition: color 0.3s ease 0s;
+    font-size: 21px
+  }
+  
+  .zpet li:hover {
+    transform: scale(1.03);
+    transition: 0.4s;
+  }
+
+  .game-gui {
+    position: relative;
+  }
+
+  /* UPPER BAR STYLE, TOKEN NEXT TO EACH OTHER */
+
+  .individual-game {
+    transition: display 0.3s ease;
+  }
+
+  .upper-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 80px;
+    background-color: #7b0e8a;
+    border-radius: 50px 0 0 0;  
+    padding: 0 20px;
+  }
+
+  .nadpis-cisla {
+      margin: 0;
+      color: white;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .upper-bar a {
+      color: white;
+  }
+
+  .nadpis-info {
+    background-color: #930ea4;
+    width: 500px;
+    height: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    border-radius: 50px 0 50px 0;
+    overflow: hidden;
+    margin-bottom: 300px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.5);
+    vertical-align: middle;
+  }
+
+  .upper-bar i {
+    font-size: 40px;
+    display: block;
+    margin-left: -45px;
+    color: white;
+    transition: 0.4s;
+  }
+
+  .upper-bar i:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+    border-radius: 15000;
+    color: rgba(233, 21, 222, 0.918);
+    position: relative;
+  }
+
+  .transition-effect {
+    transition: opacity 0.5s ease;
+  }
+
+  .individual-game,
+  .game-info {
+      opacity: 0; /* Initially hide the elements */
+      transition: opacity 0.5s ease-in-out; /* Add transition effect for opacity */
+  }
+
+  .individual-game.visible,
+  .game-info.visible {
+      opacity: 1; /* Make the elements visible */
+  }
+
+  .game-info {
+    width: 70%;
+    margin: 0 auto; 
+    text-align: center;
+    display: block;
+    transition: opacity 0.3s ease;
+    clear: both;
+    z-index:-150;
+  }
+  
+  .token-status {
+    opacity: 0;
+    background-color: #d831ee;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 480px;
+    border-radius: 15px 15px 0 0;
+    border-left: 2px solid rgba(255, 255, 255, 0.548);
+    border-top: 2px solid rgba(255, 255, 255, 0.548);
+    border-right: 2px solid rgba(255, 255, 255, 0.548);
+  }
+
+  .money-link {
+    text-align: center;
+    font-size: 33px;
+  }
+
+  .upper-bar .nadpis-cisla {
+    font-size: 49px;
+    padding-top: 7px
+  }
+
+  .submit-button59 {
+    background-size: cover;
+    border: none;
+    color: transparent;
+    width: 135px;
+    height: 135px;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: transparent;
+}
+
+  .all-tokens {
+    display:flex;
+    margin-left:-240px;
+    margin-right:-110px;
+}
+
+#result {
+    font-size: 30px;
+    margin-top: 40px;
+    opacity: 1;
+    background-color: #bf42cf;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;    
+    margin-top:-120px;
+    color: black;
+  }
+
+  .ress {
+    margin-top: -15px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .zpet {
+        margin-top: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 1350px) {
+    .token-status {
+        opacity: 1;
+      }
+
+    .all-tokens {
+      display: none;
+    }
+  }
+
+  .ind55 {
+    margin-top: 40px;
+  }
+
+  @media only screen and (max-width: 950px) {
+    .nadpis-info {
+      height: 550px;
+      width: 370px;
+    }
+
+    .token-status {
+      margin-top: 510px;
+    }
+
+    .ress {
+      margin-top: 0;
+    }
+
+    .ind55 {
+      margin-top: 58px;
+    }
+
+    .upper-bar .nadpis-cisla {
+      font-size: 35px;
+      padding-top: 10px;
+    }
+
+    .upper-bar i {
+      font-size: 35px;
+    }
+
+    .b3 {
+      display: none;
+    }
+
+    .b4 {
+      background-image: url(scissors.png);
+      visibility: visible;
+    }
+
+    #result {
+      margin-top: -20px;
+    }
+
+    .last-button {
+      margin-top: -40px;
+    }
+
+    .input-container input {
+      margin-top: 50px;
+    }
+
+    .submit-button59 {
+      width: 110px;
+      height: 110px;
+      margin-top: 70px;
+    }
+  }
+  
+  @media screen and (max-width: 980px) {
+    .footer {
+      margin-top: -150px;
+    }
+
+    #choices {
+      margin-top: -25px;
+    }
+
+    .upper-bar {
+      margin-bottom: -20px;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .footer {
+      margin-top: -150px;
+    }
+
+    .nadpis-zapas {
+      font-size: 400px;
+    }
+  }
+
+  .nadpis-zapas {
+    font-size: 25px;
+  }
+
+  .ind1 {
+    display:inline-block;
+    margin-right:20px;
+  }
+
+  .ind2 {
+    display:inline-block;
+    margin-right:-7px;
+  }
+
+  .ind3 {
+    display:inline-block;
+    margin-right:2px;
+  }

@@ -1,0 +1,227 @@
+html { 
+    margin-left: calc(100vw - 100%); 
+    overflow-y: scroll;
+  }
+  
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Bebas Neue", sans-serif;
+    }
+
+body {
+    background: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: none;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(285, 2, 251, 2.5);
+    padding: 40px;
+    width: 580px;
+    text-align: center;
+}
+
+input {
+    width: 70% !important;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 8px;
+    text-align: center; 
+    appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: .2em solid #930ea4;
+	padding: .4em;
+	color: #e542faa2;
+    background: transparent;
+    transition: 0.4s;
+}
+
+input:focus {
+    background: #b22cc40e;
+    transition: 1s;
+  }
+
+input:focus::placeholder {
+    transition: 0.4s;
+    color: transparent;
+  }
+
+input:hover {
+    border-bottom: .2em solid #e687f3a2;
+    transition: 0.4s;
+    color: white;
+}
+
+button {
+    color: white;
+    padding: 13px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    margin-bottom: 20px;
+    font-size: 25px;
+    background-color: #930ea4;
+    border-radius: 50px;
+    transition: 0.4s;
+}
+
+button:hover {
+    box-shadow: rgba(167, 26, 180, 0.5) 0 1px 30px;
+    transition: 0.4s;
+}
+
+button a {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: rgba(164, 18, 184, 0.8);
+}
+
+.switch-btn {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nadpis {
+    font-size: 60px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    -webkit-animation: nadpis 4s ease-in-out infinite alternate;
+    -moz-animation: nadpis 3s ease-in-out infinite alternate;
+    animation: nadpis 2s ease-in-out infinite alternate;
+}
+
+@keyframes nadpis {
+    from {
+      text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 
+                   0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+    }
+    to {
+      text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6,
+                   0 0 60px #eb0f7d, 0 0 70px #f814f8, 0 0 80px #b93477;
+    }
+}
+
+@media (max-width: 660px) {
+    .container {
+        width: 500px;
+    }
+
+    .switch-btn{
+        font-size: 20px;
+    }
+
+    button{
+        font-size: 20px;
+    }
+
+    .nadpis{
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 560px) {
+    .container {
+        width: 400px;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    button{
+        width: 75%;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 330px;
+    }
+
+    input {
+        width: 90%;
+        font-size: 17px;
+    }
+
+    button{
+        width: 75%;
+    }
+}
+
+@media (max-width: 300px) {
+    .container {
+        width: 250px;
+    }
+
+    input{
+        font-size: 15px;
+    }
+}
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+
+  p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+
+    /* OBRÁZEK NA POZADÍ */
+    .background-pozadi {
+        height: 100%;
+        position: fixed;
+        background-size: contain;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        filter: brightness(20%);
+    }
+
+    video {
+        height: 100%;
+    }
+    
+    @media (max-width: 8000px) {
+        .background-pozadi {
+            transform: scale(1.2);
+        }
+    }
